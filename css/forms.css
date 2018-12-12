@@ -1,0 +1,115 @@
+
+.fs-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2C3E50;
+  margin-bottom: 10px;
+
+}
+
+.fs-subtitle {
+  font-weight: normal;
+  font-size: 13px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form-style{
+    max-width:40%;
+    margin:50px auto;
+   text-align: center;
+    border-radius:2px;
+margin-top: 100px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.form-style h1{
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+    color: white;
+    font-size:x-large;
+}
+.form-style ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.form-style li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 20px;
+    border-radius: 3px;
+     background:#fff;
+}
+.form-style li:last-child{
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.form-style input[type="text"],
+.form-style input[type="date"],
+.form-style input[type="datetime"],
+.form-style input[type="email"],
+.form-style input[type="search"],
+.form-style input[type="time"],
+.form-style input[type="url"],
+.form-style input[type="password"],
+.form-style textarea,
+.form-style select
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.form-style input[type="text"]:focus,
+.form-style input[type="date"]:focus,
+.form-style input[type="datetime"]:focus,
+.form-style input[type="email"]:focus,
+.form-style input[type="number"]:focus,
+.form-style input[type="search"]:focus,
+.form-style input[type="time"]:focus,
+.form-style input[type="url"]:focus,
+.form-style input[type="password"]:focus,
+.form-style textarea:focus,
+.form-style select:focus
+{
+}
+
+.form-style input[type="submit"],
+.form-style input[type="button"]{
+ background-color: #ffca47;
+border: none;
+color: white;
+padding: 10px;
+font-size: 16px;
+font-weight: bold;
+text-transform: capitalize;
+ border-radius: 4px;
+ width: 140px;
+ margin-top: 20px;
+ cursor: pointer;
+ -webkit-box-shadow: 0px 0px 11px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 11px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 11px -3px rgba(0,0,0,0.75);
+margin-right: 20px;border:none; 
+}
+.form-style input[type="submit"]:hover,
+.form-style input[type="button"]:hover{
+  
+}
+.message{
+  color: red;
+  font-weight: bold;
+}
